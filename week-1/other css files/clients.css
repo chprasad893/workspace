@@ -1,0 +1,41 @@
+
+ .clients{
+  /*background: url('../images/clients-bg.jpg') right no-repeat;*/
+  height: 100%;
+  width: 100%;
+  /*background-color:#1e9fb4;*/
+  background-color:#083f48;
+}
+/*==paragraph in clients*/
+
+.clients .headline{
+  font-size: 35px;
+  margin: 50px -85px;
+  font-weight: 900;
+  color: whitesmoke;
+}
+
+.clients .grid_3{
+  margin-top: 55px;
+padding-left: 75px;
+}
+
+.clients h1{
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-left: -85px;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+/*.clients h3{
+  font-size: 15px;
+  font-weight:300;
+  padding-top: 0px;
+  color: whitesmoke;
+  text-transform: uppercase;
+}*/
+
+.clients a:hover{
+  opacity: 0.5;
+}

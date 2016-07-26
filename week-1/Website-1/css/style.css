@@ -1,0 +1,27 @@
+.wrap {background-color: #e3e3e3;}
+
+header h1{
+  color: green;
+}
+
+h1,li {
+  font-family: sans-serif;
+}
+
+nav li{
+  background:#e3e3e3;
+  font-size: 20px;
+  margin-right: 10px;
+  border-right: 3px;
+  display: inline;
+}
+
+nav ul{
+  margin-top: 50px;
+border-color: red;
+border: 3px;
+}
+
+a{
+  text-decoration: none;
+}

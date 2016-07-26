@@ -1,0 +1,152 @@
+html,body {
+  height: 100%;
+  font-family: 'Open Sans',sans-serif;
+}
+
+/*
+==navbar
+*/
+
+nav {
+  background-color:#898b93;
+  position: fixed;
+  width: 100%;
+}
+
+.icon{
+  /*color:#1d9eb3;*/
+  color:whitesmoke;
+  /*font-size: 23px;*/
+}
+
+.icon:hover{
+  color:#f17272;
+}
+.navbar-header {
+  text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 700;
+    float: left;
+    padding-left: 42px;
+    padding-top: 11px;
+    text-transform: uppercase;
+    /*border: 2px solid whitesmoke;*/
+}
+.navbar-header:hover{
+  color: #0c560c;
+}
+
+ nav li:hover{
+/*color: #1d9eb3;*/
+color: black;
+}
+
+
+nav ul li{
+  display: inline-block;
+  padding: 40px 20px;
+  color: whitesmoke;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/*
+==endofnavbar
+*/
+
+nav ul {
+  float: right;
+  padding-right: 60px;
+  margin-top: -50px;
+}
+
+/*
+== Hero Unit
+*/
+.movies .herounit {
+  /*background: black;*/
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/Hero.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  /*opacity: 0.9;*/
+  /*z-index: 1001;*/
+}
+.herounit img{
+  margin-top: 40px;
+}
+/*
+==End Hero Unit
+*/
+
+.opening_line{
+  margin-top: 60px;
+}
+
+.opening_line p{
+font-size: 35px;
+font-style: italic;
+text-align: center;
+font-weight: 400;
+color: whitesmoke;
+padding-top: 35px;
+}
+
+.description_head h2{
+padding-top: 25px;
+font-size: 25px;
+font-weight: 600;
+font-style: italic;
+color: whitesmoke;
+letter-spacing: 0.5px;
+text-align: justify;
+margin-right: 8px;
+}
+
+.description_content p{
+  padding-top: 18px;
+  font-size: 20px;
+  font-weight: 300;
+  color: whitesmoke;
+  letter-spacing: 0.5px;
+  text-align: justify;
+  margin-right: 8px;
+}
+
+.buzz_section{
+  height: 100%;
+  width: 100%;
+  background: grey;
+  padding-top: 120px;
+
+}
+
+.movie_week_header p{
+  font-size: 35px;
+  font-weight: 500;
+  font-style: italic;
+  color: whitesmoke;
+  padding-bottom: 25px;
+  padding-left: 9px;
+  border-bottom: 1px solid white;
+}
+
+.tweet1,.tweet2,.tweet3,.intro p{
+  font-size: 21px;
+  /*font-weight: 400;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: whitesmoke;
+}
+
+.tweet1,.tweet2,.tweet3,.intro{
+  padding-top: 10px;
+  padding-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+body img{
+  border: 0.5px solid black;
+}

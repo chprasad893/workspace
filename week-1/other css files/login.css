@@ -1,0 +1,72 @@
+.forms{
+  /*height: 100%;*/
+  background: grey;
+  padding:90px 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.login_page_header p{
+font-size: 25px;
+font-weight: 300;
+color: whitesmoke;
+padding-bottom: 30px;
+text-align: center;
+}
+
+.sign_up_form,.login_form {
+  /*width: 40%;*/
+  /*height: 70%;*/
+  border: 1px solid black;
+  padding: 10px 10px;
+  border-radius: 8px;
+  /*margin-top: 150px;*/
+}
+.login_form a{
+  text-decoration: none;
+  color: #0e1867;
+  font-size: 15px;
+}
+
+.login_form a:hover{
+  text-decoration: underline;
+  color: #f17272;
+}
+
+.forms li{
+list-style: none;
+margin-bottom: 20px;
+}
+
+.forms ul{
+  padding-left:15px;
+}
+
+legend{
+font-size: 25px;
+font-family: "open sans",sans-serif;
+font-weight: 500;
+/*text-decoration: underline;*/
+padding-left: 15px;
+color: whitesmoke;
+}
+
+.forms input{
+width: 250px;
+height: 30px;
+}
+
+.submit{
+  background:#127729;
+  color: whitesmoke;
+  border: none;
+}
+
+.submit:hover{
+  background:#0c560c;
+  color: white;
+}
+.sign_up_form p{
+  font-size: 12px;
+  width: 250px;
+}
